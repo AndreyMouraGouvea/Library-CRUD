@@ -4,6 +4,7 @@ session_start();
 
 
 $mysqli =  new mysqli('localhost', 'root', 'usbw', 'test') or die(mysql_error($mysqli));
+// $mysqli =  new mysqli('localhost', 'yovcyore_bibli', '@senhaforte', 'yovcyore_bibli') or die(mysql_error($mysqli));
 $id = 0;
 $update = false;
 $name = '';
